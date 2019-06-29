@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import axios from 'axios';
+import Pic from "./Components/Pic";
+import Action from "./Components/ActionBar";
 
 
 
@@ -28,7 +30,19 @@ const consultarAPI = async () =>{
 console.log(quote);
     
 
-  return <p>Hola</p>
+  return (
+    <div>
+      <Pic
+        consulta = {quote}
+       />
+      <Action 
+      metodo = {consultarAPI}
+      />
+
+    </div>
+    
+
+  )
 }
 
 
