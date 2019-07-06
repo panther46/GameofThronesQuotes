@@ -10,6 +10,7 @@ import Action from "./Components/ActionBar";
 function App() {
 
   const [quote,setQuote] = useState({});
+  
 
 // Install Axios para realizar consulta
 // Consulta a la API
@@ -36,7 +37,7 @@ console.log(quote);
         consulta = {quote}
        />
       <Action 
-      metodo = {consultarAPI}
+        metodo = {consultarAPI}
       />
 
     </div>

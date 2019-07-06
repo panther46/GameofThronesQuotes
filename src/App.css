@@ -33,12 +33,9 @@ h4{
   pointer-events: none;
 }
 
-img{
-  animation-delay: 2s;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+wrapper{
+  animation:fade 20s;
+  
 }
 
 .App-header {
@@ -69,4 +66,14 @@ img{
   text-align: center;
 }
 
+.buttoncustom{
+  margin-top: 6em;
+  position: fixed;
+}
+
+/* Wrapper para imagen con tamaño fijo, evita que empuje el boton */
+.wrapper{
+  width: 212px;
+  height: 212px;
+}
 

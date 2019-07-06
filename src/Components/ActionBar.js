@@ -8,7 +8,7 @@ function Action ({metodo}){
         <div className = "containter">
             <div className = "row">
                 <div className = "col-12 centered">
-                    <button onClick={metodo} type="button" className="btn btn-dark">Dark</button>
+                    <button onClick={metodo} type="button" className="btn-lg btn-dark buttoncustom" cursor="pointer">Generate Quote</button>
                 </div>
                 
             </div>
