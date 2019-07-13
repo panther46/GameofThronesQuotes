@@ -22,9 +22,11 @@ import victareon from '../Assets/Victareon.png';
 import nopic from '../Assets/nopic.png';
 import quaithe from '../Assets/quaithe.png'
 import alayne from '../Assets/alayne.png'
+import AOS from 'aos';
 
 
 
+AOS.init();
 
 
 // La funcion pic recibe el objeto consulta, se hace un diccionario con cada key que debe hacer match con el string que viene del objeto.
@@ -104,9 +106,9 @@ function Pic ({consulta}) {
     */
        
     return(
-        <div className= "container">
+        <div className= "container" data-aos="fade-up" >
             <div className = "row">
-                <div className = "col-12 centered">
+                <div className = "col-12 centered" >
                     <h1>Game Of Thrones</h1>
                     <h2>QUOTES</h2>
                 </div>

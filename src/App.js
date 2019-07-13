@@ -33,7 +33,7 @@ console.log(quote);
 
   return (
     <div>
-      <Pic
+      <Pic 
         consulta = {quote}
        />
       <Action 
